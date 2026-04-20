@@ -11,7 +11,9 @@ const WeatherInfo = ({weatherInfo}) => {
                 <p>
                     Temperature {weatherInfo.main.temp} Celsius
                 </p>
-                <img src={`https://openweathermap.org/img/wn/${weatherInfo.weather[0].icon}@2x.png`}/>
+                <img src={`https://openweathermap.org/img/wn/${weatherInfo.weather[0].icon}@2x.png`}
+                    alt="Flag"
+                />
                 <p>
                     Wind {weatherInfo.wind.speed} m/s
                 </p>
